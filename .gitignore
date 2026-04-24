@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Data (adjust paths to your setup)
+data/
+*/data/
+*.nc
+*.grb
+*.grib
+*.nc4
+*.h5
+*.zarr
+*.csv.gz
+*.tar
+*.tar.gz
+*.zip
+
+# Outputs
+output/
+results/
+figures/
+plots/
+
+# Config/secrets
+config.yml
+secrets*.yml
+*.env
+
+# Conda stuff that gets huge
+.conda/
+.env/
+
