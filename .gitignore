@@ -34,6 +34,7 @@ output/
 results/
 figures/
 plots/
+Figures/
 
 # Config/secrets
 config.yml
