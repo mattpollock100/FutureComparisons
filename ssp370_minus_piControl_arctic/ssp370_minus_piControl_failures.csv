@@ -1,0 +1,3 @@
+source,proj_member,pi_member,error
+BCC-CSM2-MR,r1i1p1f1,r1i1p1f1,"FileNotFoundError('No usable sftlf found for BCC-CSM2-MR, member=r1i1p1f1, grid=gn, target_shape=(160, 320). This model will need either a manual land-sea mask or should be skipped.')"
+CAMS-CSM1-0,r1i1p1f1,r1i1p1f1,"FileNotFoundError('No usable sftlf found for CAMS-CSM1-0, member=r1i1p1f1, grid=gn, target_shape=(160, 320). This model will need either a manual land-sea mask or should be skipped.')"
