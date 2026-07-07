@@ -1,0 +1,10 @@
+institution,source,proj_member,pi_member,error
+BCC,BCC-CSM2-MR,r1i1p1f1,r1i1p1f1,"FileNotFoundError('No usable sftlf found for BCC-CSM2-MR, member=r1i1p1f1, grid=gn, target_shape=(160, 320). This model will need either a manual land-sea mask or should be skipped.')"
+CAMS,CAMS-CSM1-0,r1i1p1f1,r1i1p1f1,"FileNotFoundError('No usable sftlf found for CAMS-CSM1-0, member=r1i1p1f1, grid=gn, target_shape=(160, 320). This model will need either a manual land-sea mask or should be skipped.')"
+CMCC,CMCC-CM2-SR5,r1i1p1f1,r1i1p1f1,"ValueError('Static field shape (292, 362) does not match target shape (291, 360)')"
+IPSL,IPSL-CM6A-LR,r1i1p1f1,r1i1p1f1,ValueError('Could not concatenate rsds cleanly in /badc/cmip6/data/CMIP6/CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Amon/rsds/gr/latest; got 4 cubes')
+NCAR,CESM2,r4i1p1f1,r1i1p1f1,ValueError('Implausible Arctic area for CESM2: 128 million km2. This probably indicates a bad area field.')
+NCAR,CESM2-WACCM,r1i1p1f1,r1i1p1f1,ValueError('Implausible Arctic area for CESM2-WACCM: 128 million km2. This probably indicates a bad area field.')
+NCC,NorESM2-MM,r1i1p1f1,r1i1p1f1,"ValueError('Static field shape (385, 360) does not match target shape (384, 360)')"
+NUIST,NESM3,r1i1p1f1,r1i1p1f1,"ValueError('Cannot calculate fallback area for a curvilinear grid. Need areacella, areacello, or siareacello.')"
+THU,CIESM,r1i1p1f1,r1i1p1f1,"FileNotFoundError('No usable sftlf found for CIESM, member=r1i1p1f1, grid=gr, target_shape=(192, 288). This model will need either a manual land-sea mask or should be skipped.')"
